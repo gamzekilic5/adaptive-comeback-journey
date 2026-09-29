@@ -6,6 +6,9 @@ A product case study exploring how a mobile puzzle game could re-engage returnin
 players through personalized missions, progressive rewards, and adaptive gameplay
 experiences.
 
+## Feature Overview
+
+![Adaptive Comeback Journey User Flow](user_flow.png)
 ## Product Problem
 
 Getting an inactive player to reopen a game does not necessarily mean that the
