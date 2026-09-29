@@ -111,7 +111,7 @@ progression shortly after returning.
 
 ---
 
-### ⚡ Quick Comeback — Casual Players
+### Quick Comeback — Casual Players
 
 Designed as a short, low-commitment experience for players with historically
 lower session frequency or playtime.
@@ -167,3 +167,53 @@ it with passive login rewards.
 
 Reward values shown in this case study are illustrative and would require
 balancing using live game economy data before implementation.
+
+## Eligibility & Abuse Prevention
+
+A comeback system can unintentionally encourage players to become inactive if
+rewards are perceived as more valuable than regular gameplay rewards.
+
+To reduce this risk, the feature includes several eligibility rules.
+
+### Eligibility
+
+A player becomes eligible when:
+
+- The player has been inactive for at least 3 consecutive days
+- The player has sufficient historical gameplay data for behavioral segmentation
+- The player has not received another Comeback Journey within the cooldown period
+
+### Cooldown
+
+The Adaptive Comeback Journey can be activated at most once every **30 days**.
+
+This reduces the incentive for players to intentionally stop playing in order
+to repeatedly obtain comeback rewards.
+
+### Reward Safeguards
+
+Comeback rewards should complement normal progression rather than outperform
+rewards available through regular gameplay.
+
+Reward values should therefore be monitored and balanced against:
+
+- Normal progression rewards
+- Booster consumption
+- In-game economy
+- Purchase behavior
+- Player progression speed
+
+### Additional Product Risks
+
+**Intentional inactivity**  
+Players may learn the eligibility rules and deliberately become inactive.
+
+**Over-rewarding**  
+Excessive comeback rewards could reduce purchase incentives or disrupt the game economy.
+
+**Over-segmentation**  
+Incorrect behavioral classification could provide an experience that does not
+match the player's actual motivation.
+
+**Feature fatigue**  
+Repeated exposure could make the comeback experience feel routine rather than special.
