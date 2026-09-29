@@ -286,3 +286,83 @@ entering the experiment.
 
 These metrics help identify whether an engagement improvement comes at the cost
 of monetization, game balance, or player experience.
+
+## Success Criteria & Decision Framework
+
+The experiment should not be evaluated only by whether a result reaches
+statistical significance. The magnitude of the improvement and its impact on
+player experience, monetization, and game balance should also be considered.
+
+### Decision Framework
+
+**Scenario 1 — Adaptive Journey outperforms both Control and Generic**
+
+If Treatment B produces a meaningful improvement in D7 post-return retention
+without deterioration in guardrail metrics:
+
+→ Proceed with a gradual rollout of the Adaptive Comeback Journey.
+
+---
+
+**Scenario 2 — Generic and Adaptive perform similarly**
+
+If both treatments improve retention but personalization provides little or no
+incremental value:
+
+→ Prefer the Generic Comeback Journey.
+
+A simpler solution may be preferable if personalization adds implementation
+complexity without sufficient additional player value.
+
+---
+
+**Scenario 3 — Engagement improves but guardrails deteriorate**
+
+If retention or engagement increases while monetization, progression balance,
+or other important guardrails deteriorate:
+
+→ Do not immediately roll out the feature.
+
+Investigate the reward structure and identify the mechanism behind the negative
+effect before running another iteration.
+
+---
+
+**Scenario 4 — No meaningful improvement**
+
+If neither treatment produces a meaningful improvement:
+
+→ Do not roll out the feature in its current form.
+
+Use mission completion, segment-level behavior, and progression data to identify
+where players disengage and redesign the experience.
+
+---
+
+## Future Iterations
+
+If the initial experiment demonstrates product value, future iterations could explore:
+
+- Different inactivity thresholds
+- Alternative mission difficulty curves
+- Dynamic reward values
+- Different numbers of comeback stages
+- Segment-specific reward types
+- Personalized mission duration
+- Long-term D14 and D30 retention effects
+- Impact on player lifetime value
+- More granular behavioral segmentation
+
+More advanced personalization should only be introduced if simpler segmentation
+demonstrates sufficient incremental value to justify the added complexity.
+
+---
+
+## Case Study Scope
+
+This is a conceptual product case study created for portfolio purposes.
+
+The player segments, reward values, eligibility thresholds, and experiment
+design are illustrative assumptions. In a live product environment, these
+decisions would require validation using real player behavior, game economy,
+and experimentation data.
