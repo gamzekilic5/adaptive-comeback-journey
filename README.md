@@ -14,7 +14,7 @@ experiences.
 Getting an inactive player to reopen a game does not necessarily mean that the
 player has been successfully re-engaged.
 
-Some returning players may collect a reward, play briefly, and leave again.
+Some returning players may collect a reward, play briefly and leave again.
 
 The product challenge is:
 
