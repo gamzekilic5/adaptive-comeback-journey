@@ -79,3 +79,91 @@ Players who showed strong engagement and progression before unexpectedly becomin
 - Regular gameplay activity
 
 **Comeback objective:** Restore the player's previous gameplay momentum and provide a meaningful challenge.
+
+## Adaptive Comeback Experience
+
+When an eligible player returns after at least 3 days of inactivity, the system
+selects a comeback journey based on the player's recent gameplay behavior.
+
+Each journey follows the same principle:
+
+**Return → Complete Missions → Build Momentum → Unlock Progressive Rewards**
+
+However, mission design changes according to the player's previous behavior.
+
+### Momentum Path — Struggling Players
+
+Designed for players who showed signs of progression difficulty before becoming inactive.
+
+**Mission Flow**
+
+1. Complete 2 levels  
+   → 15 Minutes Unlimited Lives
+
+2. Complete 3 additional levels  
+   → 1 Rocket + 1 Bomb
+
+3. Complete 6 total levels  
+   → Momentum Chest
+
+**Design Goal:** Reduce initial friction and help the player experience successful
+progression shortly after returning.
+
+---
+
+### ⚡ Quick Comeback — Casual Players
+
+Designed as a short, low-commitment experience for players with historically
+lower session frequency or playtime.
+
+**Mission Flow**
+
+1. Complete 1 level  
+   → Small Coin Reward
+
+2. Complete 3 total levels  
+   → 1 Booster
+
+3. Complete 5 total levels  
+   → Comeback Chest
+
+**Design Goal:** Provide an immediate sense of progress without requiring a long
+play session.
+
+---
+
+### Streak Challenge — Engaged Players
+
+Designed for previously engaged players who may respond better to challenge and
+progression than to simple login rewards.
+
+**Mission Flow**
+
+1. Complete 3 levels  
+   → Booster Reward
+
+2. Complete 7 total levels  
+   → Advanced Booster Bundle
+
+3. Complete 12 total levels  
+   → Premium Comeback Chest
+
+**Design Goal:** Rebuild gameplay momentum through a more demanding progression
+path and a stronger final reward.
+
+---
+
+## Reward Design Principle
+
+Rewards are earned through gameplay rather than granted immediately when the
+player returns.
+
+This creates the following loop:
+
+**Come Back → Play → Progress → Earn Reward → Continue Playing**
+
+The feature is designed to support the core gameplay loop rather than replacing
+it with passive login rewards.
+
+Reward values shown in this case study are illustrative and would require
+balancing using live game economy data before implementation.
