@@ -217,3 +217,72 @@ match the player's actual motivation.
 
 **Feature fatigue**  
 Repeated exposure could make the comeback experience feel routine rather than special.
+
+## Experiment Design
+
+The Adaptive Comeback Journey should be validated through a controlled experiment
+before a full rollout.
+
+Rather than testing personalization only against the existing experience, the
+experiment includes a generic comeback treatment as an additional comparison group.
+
+### Experiment Groups
+
+**Control — Current Experience**
+
+Returning players receive the existing game experience without a dedicated
+comeback journey.
+
+**Treatment A — Generic Comeback Journey**
+
+Eligible returning players receive the same comeback mission structure and
+rewards regardless of their previous gameplay behavior.
+
+**Treatment B — Adaptive Comeback Journey**
+
+Eligible returning players receive a comeback journey based on their behavioral
+segment:
+
+- Struggling → Momentum Path
+- Casual → Quick Comeback
+- Engaged → Streak Challenge
+
+### Core Experiment Question
+
+> **Does an adaptive comeback experience create incremental value beyond both
+> the current experience and a generic comeback feature?**
+
+### Randomization
+
+Eligible returning players would be randomly assigned to one of the three
+experiment groups.
+
+Randomization should occur after eligibility is determined to ensure that all
+groups are drawn from the same target population.
+
+### Primary Metric
+
+**D7 Post-Return Retention**
+
+The percentage of returning players who are active again seven days after
+entering the experiment.
+
+### Secondary Metrics
+
+- D1 post-return retention
+- Sessions per player
+- Playtime per player
+- Levels completed
+- Comeback Journey completion rate
+- Mission completion rate
+
+### Guardrail Metrics
+
+- Conversion rate
+- ARPU
+- Booster usage per level
+- Failures per level
+- Progression speed
+
+These metrics help identify whether an engagement improvement comes at the cost
+of monetization, game balance, or player experience.
